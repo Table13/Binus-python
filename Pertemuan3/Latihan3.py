@@ -11,24 +11,24 @@ Pilih jenis konvensi yang anda mau
 jenisKonvensi = int(input("masukan konvensi berdasarkan nomernya: "))
 
 if ((jenisKonvensi >= 1) and (jenisKonvensi <=6)):
-    Suhu = int(input("masukan Suhu yang ingin di ubah: "))
+    suhu = int(input("masukan Suhu yang ingin di ubah: "))
     if jenisKonvensi == 1:
-        F = 9/5 * Suhu + 32
-        print("Suhu yang di ingin di ubah adalah Celsius ke Fahrenheit.",Suhu,"Celsius menjadi",F,"Fahrenheit")
+        f = 9/5 * Suhu + 32
+        print("Suhu yang di ingin di ubah adalah Celsius ke Fahrenheit.",suhu,"Celsius menjadi",f,"Fahrenheit")
     elif jenisKonvensi == 2:
-        K = Suhu + 273
-        print("Suhu yang di ingin di ubah adalah Celsius ke Kelvin.",Suhu,"Celsius menjadi",K,"Kelvin")
+        k = suhu + 273
+        print("Suhu yang di ingin di ubah adalah Celsius ke Kelvin.",suhu,"Celsius menjadi",k,"Kelvin")
     elif jenisKonvensi == 3:
-        C = 5/9 * Suhu - 32
-        print("Suhu yang di ingin di ubah adalah Fahrenheit ke Celsius.",Suhu,"Fahrenheit menjadi",C,"Celsius")
+        c = 5/9 * suhu - 32
+        print("Suhu yang di ingin di ubah adalah Fahrenheit ke Celsius.",suhu,"Fahrenheit menjadi",c,"Celsius")
     elif jenisKonvensi == 4:
-        K = 5/9 * (Suhu-32) + 273
-        print("Suhu yang di ingin di ubah adalah Fahrenheit ke Kelvin.",Suhu,"Fahrenheit menjadi",K,"Kelvin")
+        k = 5/9 * (suhu-32) + 273
+        print("Suhu yang di ingin di ubah adalah Fahrenheit ke Kelvin.",suhu,"Fahrenheit menjadi",k,"Kelvin")
     elif jenisKonvensi == 5:
-        C = Suhu - 273
-        print("Suhu yang di ingin di ubah adalah Kelvin ke Celsius.",Suhu,"Kelvin menjadi",C,"Celsius")
+        c = suhu - 273
+        print("Suhu yang di ingin di ubah adalah Kelvin ke Celsius.",suhu,"Kelvin menjadi",c,"Celsius")
     elif jenisKonvensi == 6:
-        F = 9/5 * (Suhu-273) + 32
-        print("Suhu yang di ingin di ubah adalah Kelvin ke Fahrenheit.",Suhu,"Kelvin menjadi",F,"Fahrenheit")
+        f = 9/5 * (suhu-273) + 32
+        print("Suhu yang di ingin di ubah adalah Kelvin ke Fahrenheit.",suhu,"Kelvin menjadi",f,"Fahrenheit")
 else:
     print("MOHON PILIH JENIS NOMOR KONVESI YANG TERTERA!!!")
