@@ -7,6 +7,6 @@ print(d)
 
 if d > 0: #nilai akar asli
     print("nilai diskriminan",d,"artinya kedua akar adalah bilangan asli yaitu X1 =",x1,". X2 ="x2)
-if d = 0: #memiliki akar kembar
+elif d = 0: #memiliki akar kembar
      print("nilai diskriminan",d,"artinya akar adalah angka kemabr yaitu", x1)
-if d < 0: #memiliki angka imajinier
+elif d < 0: #memiliki angka imajinier
