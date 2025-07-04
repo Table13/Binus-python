@@ -8,3 +8,7 @@ https://blog.zulma.id/posts/Algorithms-and-Programming-Python-4/
 ..
 https://blog.zulma.id/posts/Algorithms-and-Programming-Python-5/
 ..
+https://blog.zulma.id/posts/Algorithms-and-Programming-Python-6/
+..
+https://blog.zulma.id/posts/Algorithms-and-Programming-Python-7/
+..
